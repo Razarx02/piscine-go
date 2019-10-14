@@ -1,2 +1,2 @@
 
-echo "Hello Razarx02" 
+echo "Hello Razarx02!" 
