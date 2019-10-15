@@ -1,1 +1,0 @@
-ls -ltm -p | sed 's/ //9'
