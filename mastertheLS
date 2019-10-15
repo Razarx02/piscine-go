@@ -1,2 +1,1 @@
-
-ls -m -tr -p 
+dir  -r -p -am 
