@@ -5,7 +5,7 @@ package main
 
 import "github.com/01-edu/z01"
 
-func Isnegative(nb int) {
+func IsNegative(nb int) {
    
 	if nb >= 0 {
 		z01.PrintRune('T')
