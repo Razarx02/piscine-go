@@ -2,16 +2,9 @@ package main
 
 import "github.com/01-edu/z01"
 
-
-func main(){
-	var a = 5	
-	Isnegative(a)   
+func Isnegative(nb int){
    
-}
-
-func Isnegative(a int){
-   
-	if a >= 0{
+	if nb >= 0{
 		z01.PrintRune('T')
 		z01.PrintRune(10)
 	} else {
