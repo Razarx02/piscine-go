@@ -3,19 +3,18 @@ package student
 import "github.com/01-edu/z01"
 
 func PrintComb() {
-
-    for t := '0'; t <= '7'; t = t + 1 {
-        for o := t + 1; o <= '8'; o = o + 1 {
-            for p := o + 1; p <= '9'; p++ {
-                z01.PrintRune(t)
-                z01.PrintRune(o)
-                z01.PrintRune(p)
-                if t < 55 {
-                    z01.PrintRune(',')
-                    z01.PrintRune(' ')
-                }
-            }
-        }
+ for i := '0'; i <= '9'; i++ {
+  for j := i + 1; j <= '9'; j++ {
+   for k := j + 1; k <= '9'; k++ {
+    z01.PrintRune(i)
+    z01.PrintRune(j)
+    z01.PrintRune(k)
+    if i != '7' || j != '8' || k != '9' {
+     z01.PrintRune(',')
+     z01.PrintRune(' ')
     }
-    z01.PrintRune('\n')
+   }
+  }
+ }
+ z01.PrintRune('\n')
 }
