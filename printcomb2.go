@@ -1,8 +1,8 @@
-package main
+package student
 
 import "github.com/01-edu/z01"
 
-func main() {
+func PrintComb2() {
 	for i := '0'; i <= '9'; i++ {
 		for j := '0'; j <= '8'; j++ {
 			for Ewe := '0'; Ewe <= '9'; Ewe++ {
