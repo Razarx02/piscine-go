@@ -1,6 +1,6 @@
 package student
 
-import piscine
+import "piscine"
 
 func PointOne(n *int) {
 
