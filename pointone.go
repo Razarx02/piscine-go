@@ -1,11 +1,9 @@
 package student
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func PointOne(n *int) {
 
-	*n = 1
+	*n = *n + 1
 
 }
