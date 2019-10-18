@@ -1,4 +1,4 @@
-package PointOne
+package student
 
 func PointOne(n *int) {
 
