@@ -1,6 +1,6 @@
 package student
 
-import "fmt"
+import piscine
 
 func PointOne(n *int) {
 
