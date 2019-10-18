@@ -1,6 +1,8 @@
 package student
 
-import ("fmt")
+import (
+	"fmt"
+)
 
 func PointOne(n *int) {
 
