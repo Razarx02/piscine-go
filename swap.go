@@ -2,10 +2,12 @@ package student
 
 func Swap(a *int, b *int) {
 
-	x := *b
+	*a, *b = *b, *a
 
-	*a = *b
+	//x := *b
 
-	*b = x
+	//*a = *b
+
+	//*b = x
 
 }
