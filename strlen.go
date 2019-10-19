@@ -2,10 +2,12 @@ package student
 
 func StrLen(str string) {
 
-	a := len(str)
-
-	fmt.Println(a)
-
+	a := 0
+	for _, i := range str {
+		if i == i {
+			a++
+		}
+	}
 	return a
 
 }
