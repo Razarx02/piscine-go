@@ -4,7 +4,9 @@ import "github.com/01-edu/z01"
 
 func PrintStr(str string) {
 
-	for i := 0; i <= 10; i++ {
+	a := z01.len(str)
+
+	for i := 0; i <= a-1; i++ {
 
 		z01.PrintRune(rune(str[i]))
 
