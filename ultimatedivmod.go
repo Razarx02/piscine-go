@@ -1,4 +1,4 @@
-package piscine
+package student
 
 func UltimateDivMod(a *int, b *int) {
 
