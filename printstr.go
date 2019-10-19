@@ -10,6 +10,5 @@ func PrintStr(str string) {
 
 	}
 
-	z01.PrintRune(10)
 
 }
