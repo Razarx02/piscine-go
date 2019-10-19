@@ -1,6 +1,6 @@
 package student
 
-func StrLen(str string) int {
+func StrLen(str string) {
 
 	a := len(str)
 
