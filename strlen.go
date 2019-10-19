@@ -1,6 +1,6 @@
 package student
 
-func StrLen(str string) {
+func StrLen(str string) int {
 
 	a := 0
 	for _, i := range str {
@@ -8,6 +8,7 @@ func StrLen(str string) {
 			a++
 		}
 	}
+
 	return a
 
 }
