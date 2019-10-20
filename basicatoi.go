@@ -34,5 +34,5 @@ func BasicAtoi(word string) string {
 		return string('0')
 	}
 
-	return int(toText)
+	return string(toText)
 }
