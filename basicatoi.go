@@ -1,6 +1,6 @@
 package student
 
-func BasicAtoi(word string){
+func BasicAtoi(word string) {
 
 	toText := []byte(word)
 	Chek := true
