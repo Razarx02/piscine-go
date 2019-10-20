@@ -2,10 +2,10 @@ package student
 
 func StrRev(outtext string) string {
 
-	Text := []byte(s)
+	Text := []byte(outtext)
 	iindex := 0
 
-	for range Barbara {
+	for range Text {
 		iindex++
 	}
 
