@@ -31,7 +31,7 @@ func BasicAtoi(word string) {
 
 	if Chek == false {
 
-		return string("0")
+		return "0"
 	}
 
 	Finaltext := string(toText)
