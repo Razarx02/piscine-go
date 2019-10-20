@@ -7,12 +7,12 @@ func BasicAtoi(word string) string {
 
 	for range []byte(word) {
 
-		if toText[0] == "0" {
+		if toText[0] == '0' {
 
 			toText = toText[1:]
 			Chek = false
 
-		} else if toText[0] == " " {
+		} else if toText[0] == ' ' {
 
 			Chek = false
 
@@ -36,5 +36,5 @@ func BasicAtoi(word string) string {
 
 	Finaltext := string(toText)
 
-	return string(Finaltext)
+	return Finaltext
 }
