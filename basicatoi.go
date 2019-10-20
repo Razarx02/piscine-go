@@ -36,5 +36,5 @@ func BasicAtoi(word string) {
 
 	Finaltext := string(toText)
 
-	return Finaltext
+	return string(Finaltext)
 }
