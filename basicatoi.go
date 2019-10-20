@@ -12,9 +12,20 @@ func BasicAtoi(word string) string {
 			toText = toText[1:]
 			Chek = false
 
+		} else if toText[0] == ' ' {
+
+			Chek = false
+
 		} else {
+
 			Chek = true
 		}
+
+	}
+
+	if word == "" {
+
+		Chek = false
 
 	}
 
