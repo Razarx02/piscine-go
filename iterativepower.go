@@ -8,7 +8,7 @@ func IterativePower(Number int, Number2 int) int {
 
 		return 1
 
-	} else if Number < 0 || Number > 12 {
+	} else if Number2 < 0 || Number2 > 12  {
 
 		return 0
 	}
