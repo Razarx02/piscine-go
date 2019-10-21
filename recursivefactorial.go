@@ -6,7 +6,7 @@ func RecursiveFactorial(Number int) int {
 
 		return 1
 
-	} else if Number > 12 {
+	} else if Number < 0 || Number > 12 {
 
 		return 0
 
