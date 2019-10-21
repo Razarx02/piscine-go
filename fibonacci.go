@@ -2,36 +2,25 @@ package student
 
 func Fibonacci(Number int) int {
 
-	toHelp := 0
-
 	if Number < 0 {
 
 		return -1
 
 	}
 
-	if Number < 0 || Number > 12 {
+	if Number < 0 || Number > 15 {
 
 		return 0
 	}
 
-	for i := 0; i <= Number; i++ {
+	if Number == 0 {
+		return 0
+	} else if Number == 1 {
 
-		X1 := i - 1
-		X2 := i - 2
+		return 1
+	} else {
 
-		if X1+X2 == i {
-
-			toHelp = i
-
-		} else {
-
-			X1 = 0
-			X2 = 0
-
-		}
-
+		return Fibonacci(Number-1) + Fibonacci(Number-2)
 	}
 
-	return toHelp
 }
