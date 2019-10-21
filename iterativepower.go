@@ -6,7 +6,7 @@ func IterativePower(Number int, Number2 int) int {
 
 	if Number == 0 && Number2 == 0 {
 
-		return 0
+		return 1
 
 	} else if Number2 < 0 || Number2 > 12 {
 
