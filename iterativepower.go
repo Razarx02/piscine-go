@@ -4,16 +4,13 @@ func IterativePower(Number int, Number2 int) int {
 
 	result := 1
 
-	if Number == 0 {
+	if Number == 0 && Number2 == 0 {
 
 		return 0
 
 	} else if Number2 < 0 || Number2 > 12 {
 
 		return 0
-	} else if Number2 == 0 && Number == 0 {
-
-		return 1
 
 	}
 
