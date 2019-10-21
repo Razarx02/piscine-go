@@ -8,7 +8,7 @@ func IterativeFactorial(s int) int {
 
 		return 1
 
-	} else if s < 0 {
+	} else if s < 0 || s < 12 {
 
 		return 0
 	}
