@@ -7,7 +7,7 @@ func RecursivePower(Number int, Number2 int) int {
 		return Number
 	}
 
-	if Number < 0 {
+	if Number2 < 0 {
 
 		return 0
 
