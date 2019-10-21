@@ -15,6 +15,10 @@ func RecursivePower(Number int, Number2 int) int {
 
 		return 0
 
+	} else if Number2 == 0 {
+
+		return 1
+
 	} else {
 
 		return Number * RecursivePower(Number, Number2-1)
