@@ -11,6 +11,10 @@ func IterativePower(Number int, Number2 int) int {
 	} else if Number2 < 0 || Number2 > 12 {
 
 		return 0
+	} else if Number2 == 0 {
+
+		return 1
+
 	}
 
 	for i := 0; i < Number2; i++ {
