@@ -10,7 +10,7 @@ func IterativeFactorial(s int) int {
 
 	} else if s < 0 {
 
-		return
+		return 0
 	}
 
 	for i := 1; i < s+1; i++ {
