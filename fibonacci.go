@@ -8,7 +8,7 @@ func Fibonacci(Number int) int {
 
 	}
 
-	if Number < 0 || Number > 15 {
+	if Number < 0 || Number > 500{
 
 		return 0
 	}
