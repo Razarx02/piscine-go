@@ -2,7 +2,7 @@ package student
 
 func FirstRune(s string) rune {
 
-	W := int(s[0])
+	S := []rune(s)
 
-	return rune(W)
+	return S[0]
 }
