@@ -3,10 +3,10 @@ package student
 func LastRune(s string) rune {
 
 	A := []rune(s)
-	 
+
 	Size := 0
-	
-	for range A { 
+
+	for range A {
 		Size++
 	}
 
