@@ -6,5 +6,3 @@ func NRune(s string, n int) rune {
 
 	return S[n-1]
 }
-
-
