@@ -17,7 +17,6 @@ func PrintNbIonroder(n int64) {
 	var importantMassive []int64
 	importantMassive = IntoMassive(n, importantMassive)
 	SortMassive(importantMassive)
-
 	for x := range importantMassive {
 		for y := '0'; y <= '9'; y++ {
 			if rune(importantMassive[x]+48) == y {
