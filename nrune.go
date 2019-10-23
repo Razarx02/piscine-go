@@ -2,7 +2,7 @@ package student
 
 func NRune(s string, n int) rune {
 
-	A := []rune(s)
+	A := [n]rune(s)
 
 	for _, word := range A {
 
