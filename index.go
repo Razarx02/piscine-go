@@ -2,16 +2,23 @@ package student
 
 func Index(s string, toFind string) int {
 
-	for x := range s {
+	cat := []rune(s)
+	dog := []rune(toFind)
 
-		if toFind[0] == s[x] && toFind[0] == s[x+1] {
+	a := 0
+	b := 0
 
-			return x
-
-		}
-
+	for range cat {
+		a++
 	}
 
+	for range dog {
+		b++
+	}
+	for i := 0; i <= a-b; i++ {
+		if toFind == s[i:(i+b)] {
+			return i
+		}
+	}
 	return -1
-
 }
