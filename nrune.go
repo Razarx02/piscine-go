@@ -4,11 +4,11 @@ func NRune(s string, n int) rune {
 
 	A := []rune(s)
 
-	for _, word := range s {
+	for _, word := range A {
 
-		if s[n] == word
-
-		return s[n-1]
+		if A[n-1] == word {
+			return A[n-1]
+		}
 	}
 	return 0
 }
