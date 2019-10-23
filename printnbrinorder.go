@@ -2,7 +2,7 @@ package student
 
 import "github.com/01-edu/z01"
 
-func PrintNbIonroder(n int64) {
+func PrintNbInOrder(n int64) {
 
 	if n < 0 {
 
