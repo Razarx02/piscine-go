@@ -1,6 +1,6 @@
 package student
 
-func LasRune(s string, n int) rune {
+func LastRune(s string, n int) rune {
 
 	A := []rune(s)
 
