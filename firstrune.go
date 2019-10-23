@@ -4,7 +4,7 @@ func FirstRune(s string) rune {
 
 	W := 0
 
-	if int(s[0]) > 90 && int(s[0]) < 65 {
+	if int(s[0]) > 90 || int(s[0]) < 65 {
 		return 0
 	}
 
