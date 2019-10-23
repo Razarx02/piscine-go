@@ -53,3 +53,9 @@ func SortMassive(Massive []int64) []int64 {
 	}
 	return Massive
 }
+
+func main() {
+   
+	PrintNbIonroder(321)
+}
+
