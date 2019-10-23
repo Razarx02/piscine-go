@@ -1,6 +1,6 @@
 package student
 
-func NRune(s string, n int) rune {
+func LasRune(s string, n int) rune {
 
 	A := []rune(s)
 
