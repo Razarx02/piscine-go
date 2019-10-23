@@ -1,5 +1,7 @@
 package student
 
+import "github.com/01-edu/z01"
+
 func PrintNbIonroder(n int64) {
 
 	var importantMassive []int64
