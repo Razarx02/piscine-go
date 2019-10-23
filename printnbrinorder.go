@@ -2,7 +2,7 @@ package student
 
 import "github.com/01-edu/z01"
 
-func PrintNbrInOrder(n int64) {
+func PrintNbrInOrder(n int) {
 
 	if n < 0 {
 
@@ -14,7 +14,7 @@ func PrintNbrInOrder(n int64) {
 
 	}
 
-	var importantMassive []int64
+	var importantMassive []int
 
 	for n != 0 {
 
@@ -22,7 +22,7 @@ func PrintNbrInOrder(n int64) {
 
 		n = n / 10
 
-		importantMassive = append([]int64{C}, importantMassive...)
+		importantMassive = append([]int{C}, importantMassive...)
 	}
 
 	Size := 0
