@@ -2,22 +2,16 @@ package student
 
 func Index(s string, toFind string) int {
 
-	D := 0
+	for x := range s {
 
-	for i := range toFind {
+		if toFind[0] == s[x] {
 
-		for x := range s {
-
-			if toFind[i] == s[x] {
-
-				return D
-
-			}
+			return x
 
 		}
-		D--
+
 	}
 
-	return D
+	return -1
 
 }
