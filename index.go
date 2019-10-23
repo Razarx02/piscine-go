@@ -2,16 +2,23 @@ package student
 
 func Index(s string, toFind string) int {
 
-	for x := range s {
+	a := 0
+	c := 0
 
-		if toFind[0] == s[x] {
-
-			return x
-
-		}
-
+	for range toFind {
+		a++
 	}
 
-	return -1
+	if a != 0 {
+		buffer := []rune(toFind)
+		for i, w := range s {
+			if (i == i) && (buffer[0] == w && buffer[0] != 10) {
+				c++
+				return i
+			}
+		}
+		return -1
+	}
 
+	return 0
 }
