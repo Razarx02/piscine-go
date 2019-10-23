@@ -51,11 +51,17 @@ func IntoMassive(N int64, Massive []int64) []int64 {
 
 func SortMassive(Massive []int64) []int64 {
 
-	Size := len(Massive)
+	Size := 0
 
-	for i := 0; i < Size; i++ {
+	for range Massive {
 
-		for x := 0; x < Size; x++ {
+		Size++
+
+	}
+
+	for i := 0; i < Size-1; i++ {
+
+		for x := 0; x < Size-1; x++ {
 
 			if Massive[i] < Massive[x] {
 
