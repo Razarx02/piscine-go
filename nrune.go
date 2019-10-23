@@ -4,6 +4,6 @@ func NRune(s string, n int) rune {
 
 	S := s[n]
 
-	return S
+	return int(S)
 
 }
