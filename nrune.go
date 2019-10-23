@@ -2,8 +2,8 @@ package student
 
 func NRune(s string, n int) rune {
 
-	S := []rune(s)
+	S := int(s[n])
 
-	return S[n-1]
+	return S
 
 }
