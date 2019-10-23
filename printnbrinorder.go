@@ -56,5 +56,5 @@ func SortMassive(Massive []int64) []int64 {
 
 func main() {
 
-	student.PrintNbIonroder(321)
+	PrintNbIonroder(321)
 }
