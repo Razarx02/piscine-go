@@ -7,7 +7,7 @@ func NRune(s string, n int) rune {
 	for index, word := range A {
 
 		if A[n-1] == word {
-			return index
+			return word
 		}
 	}
 
