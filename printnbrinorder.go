@@ -4,8 +4,6 @@ import "github.com/01-edu/z01"
 
 func PrintNbIonroder(n int64) {
 
-	var importantMassive []int64
-
 	if n < 0 {
 
 		return
@@ -15,6 +13,8 @@ func PrintNbIonroder(n int64) {
 		z01.PrintRune('0')
 
 	}
+
+	var importantMassive []int64
 
 	importantMassive = IntoMassive(n, importantMassive)
 
@@ -59,9 +59,9 @@ func SortMassive(Massive []int64) []int64 {
 
 	}
 
-	for i := 0; i < Size-1; i++ {
+	for i := 0; i < Size; i++ {
 
-		for x := 0; x < Size-1; x++ {
+		for x := 0; x < Size; x++ {
 
 			if Massive[i] < Massive[x] {
 
