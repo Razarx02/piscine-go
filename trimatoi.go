@@ -11,7 +11,7 @@ func TrimAtoi(s string) int {
 
 			N := int(i - 48)
 
-			Nomer = T*10 + N
+			Nomer = Nomer*10 + N
 
 		} else if i == '-' && Nomer == 0 {
 
