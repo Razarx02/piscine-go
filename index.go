@@ -2,9 +2,9 @@ package student
 
 func Index(s string, toFind string) int {
 
-	for x, word := range s {
+	for x := range s {
 
-		if toFind[0] == word {
+		if toFind[0] == s[x] {
 
 			return x
 
