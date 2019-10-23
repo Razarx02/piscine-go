@@ -2,16 +2,9 @@ package student
 
 func NRune(s string, n int) rune {
 
-	S := 0
+	S := []rune(s)
 
-	for i := 0; i >= 255; i++ {
-
-		if s[n] == i {
-
-			S = i
-		}
-	}
-
-	return s
+	return S[n-1]
+}
 
 }
