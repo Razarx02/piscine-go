@@ -6,7 +6,7 @@ func NRune(s string, n int) rune {
 
 	for i := 0; i >= 255; i++ {
 
-		if s[n] == i {
+		if rune(s[n]) == i {
 
 			S = i
 		}
