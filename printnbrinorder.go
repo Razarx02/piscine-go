@@ -1,4 +1,4 @@
-package piscine
+package student
 
 import "github.com/01-edu/z01"
 
@@ -15,8 +15,36 @@ func PrintNbIonroder(n int64) {
 	}
 
 	var importantMassive []int64
-	importantMassive = IntoMassive(n, importantMassive)
-	SortMassive(importantMassive)
+
+	for n != 0 {
+
+		C := n % 10
+
+		n = n / 10
+
+		importantMassive = append([]int64{C}, importantMassive...)
+	}
+
+	Size := 0
+
+	for range importantMassive {
+
+		Size++
+
+	}
+
+	for i := 0; i < Size; i++ {
+
+		for x := 0; x < Size; x++ {
+
+			if importantMassive[i] < importantMassive[x] {
+
+				importantMassive[x], importantMassive[i] = importantMassive[i], importantMassive[x]
+
+			}
+		}
+	}
+
 	for x := range importantMassive {
 		for y := '0'; y <= '9'; y++ {
 			if rune(importantMassive[x]+48) == y {
@@ -27,33 +55,4 @@ func PrintNbIonroder(n int64) {
 
 	}
 
-}
-
-func IntoMassive(N int64, Massive []int64) []int64 {
-	for N != 0 {
-		C := N % 10
-		N = N / 10
-		Massive = append([]int64{C}, Massive...)
-	}
-	return Massive
-}
-
-func SortMassive(Massive []int64) []int64 {
-	Size := 0
-	for range Massive {
-		Size++
-	}
-	for i := 0; i < Size; i++ {
-		for x := 0; x < Size; x++ {
-			if Massive[i] < Massive[x] {
-				Massive[x], Massive[i] = Massive[i], Massive[x]
-			}
-		}
-	}
-	return Massive
-}
-
-func main() {
-
-	PrintNbIonroder(321)
 }
