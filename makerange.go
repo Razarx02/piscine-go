@@ -2,7 +2,7 @@ package student
 
 func MakeRange(min int, max int) []int {
 
-	var forz []int = make([]int, 0)
+	var forz []int = make([]int, nil)
 
 	if min == max || min > max {
 		return forz
