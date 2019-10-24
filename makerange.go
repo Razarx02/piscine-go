@@ -1,6 +1,6 @@
 package student
 
-func AppendRange(min int, max int) []int {
+func MakeRange(min int, max int) []int {
 
 	var forz []int = make([]int, 0)
 
