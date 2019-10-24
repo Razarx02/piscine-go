@@ -9,7 +9,6 @@ func SplitWhiteSpaces(str string) []string {
 	}
 
 	var text string
-	var buffer []string
 
 	Count := 0
 
@@ -20,13 +19,13 @@ func SplitWhiteSpaces(str string) []string {
 			break
 		}
 	}
-
+	var buffer []string = make([]string, Count)
 	for i := 0; i < Count+1; i++ {
 
 		if str[i] == ' ' {
 
 			text = str[:lol]
-			buffer = append(buffer, text)
+			buffer[i] = text
 			text = ""
 		}
 	}
