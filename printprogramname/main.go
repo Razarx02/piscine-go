@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -7,13 +6,13 @@ import (
 )
 
 func main() {
-	
+
 	text := []rune(os.Args[0])
-	
+
 	for i := range text {
-	
+
 		z01.PrintRune(text[i])
-	
+
 	}
 	z01.PrintRune('\n')
 }
