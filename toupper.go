@@ -8,7 +8,7 @@ func ToUpper(s string) string {
 
 	for i := 0; i < Size; i++ {
 
-		for x := 97; x <= 1222; x++ {
+		for x := 97; x <= 122; x++ {
 
 			if int(A[i]) == x {
 
