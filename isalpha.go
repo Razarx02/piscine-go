@@ -13,7 +13,7 @@ func IsAlpha(str string) bool {
 
 	for i := 0; i < Cat; i++ {
 
-		if xRune[i] == 32 {
+		if xRune[i] > 48 || (xRune[i] > 39 && xRune[i] < 41) || (xRune[i] > 90 && xRune[i] < 61) || (xRune[i] > 122) {
 
 			A = false
 
