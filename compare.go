@@ -1,29 +1,12 @@
 package student
 
 func Compare(a, b string) int {
-	Cat := 0
-	Dog := 0
 
-	for range a {
-		Cat++
-	}
-	for range b {
-		Dog++
-	}
-
-	Z := Cat - Dog
-
-	if b == a {
-
+	if a == b {
 		return 0
-
-	} else if b == a[Z:] {
-
+	} else if a < b {
 		return -1
-
-	} else {
-
+	} else if a > b {
 		return 1
 	}
-
 }
