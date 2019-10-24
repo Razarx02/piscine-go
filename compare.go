@@ -3,9 +3,9 @@ package student
 func Compare(a, b string) int {
 	Cat := 0
 	Dog := 0
-	
+
 	for range a {
-       Cat++  
+		Cat++
 	}
 	for range b {
 		Dog++
@@ -14,17 +14,16 @@ func Compare(a, b string) int {
 	Z := Cat - Dog
 
 	if b == a {
-	   
+
 		return 0
 
-	} else if b == a[Z:]  {
+	} else if b == a[Z:] {
 
 		return -1
 
-		}  else {
+	} else {
 
 		return 1
-	} 
-	
+	}
 
 }
