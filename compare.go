@@ -9,4 +9,6 @@ func Compare(a, b string) int {
 	} else if a > b {
 		return 1
 	}
+
+	return 0
 }
