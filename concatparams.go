@@ -12,7 +12,7 @@ func ConcatParams(args []string) string {
 	var str string
 	for i := 0; i < lol; i++ {
 
-		str = str + string(args[i])
+		str = str + args[i]
 		if i != lol-1 {
 			str = str + "\n"
 		}
